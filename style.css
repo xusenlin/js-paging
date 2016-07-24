@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.m_page_list {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 30px;
+}
+.m_page_list .active{
+    cursor: not-allowed;
+    background: #167cd0;
+
+}
+.m_page_list .prev, .m_page_list .next {
+    border: 1px solid #999;
+    padding: 4px 12px;
+    color: #666;
+}
+.m_page_list a {
+    border-bottom: 1px dotted #999;
+    margin: 0 8px;
+    font-size: 14px;
+}
+.m_page_value {
+    background: #eee;
+    text-align: center;
+    border: 1px solid #dbdada;
+    width: 50px;
+    height: 27px;
+}
+.m_page_list a {
+    outline: none;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+    margin: 0 8px;
+    font-size: 14px;
+}
+.m_page_go {
+    padding: 5px 6px;
+    background: #167cd0;
+    color: #fff;
+}
+.m_page_list .prev:hover, .m_page_list .next:hover {
+    background: #167cd0;
+    color: #fff;
+}
+.m_page_list i {
+    font-style: normal;
+}
